@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learning Roadmap | Shane Ramirez</title>
+<meta name="description" content="Shane Ramirez's flexible learning roadmap from data analytics to data science and AI/ML engineering.">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<script>
+  try {
+    var savedTheme = localStorage.getItem('portfolio-theme');
+    if (savedTheme === 'light' || savedTheme === 'dark') {
+      document.documentElement.dataset.theme = savedTheme;
+    }
+  } catch (error) {
+    console.warn('Could not restore the saved color theme.', error);
+  }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="glow" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="logo" href="index.html#top" aria-label="Home">&lt;SR/&gt;</a>
+  <button class="burger" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  <nav id="menu">
+    <a href="index.html#about">About</a><a href="index.html#skills">Skills</a><a href="index.html#projects">Projects</a>
+    <a href="roadmap.html" aria-current="page">Roadmap</a><a href="index.html#quests">Experience</a>
+    <a href="index.html#badges">Certifications</a><a href="index.html#contact">Contact</a>
+    <a class="btn small" href="resume/Resume_ShaneRamirez.pdf" download>Resume</a>
+  </nav>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode" title="Switch to light mode">
+    <svg class="theme-icon sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+    <svg class="theme-icon moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.1A8.5 8.5 0 0 1 8.9 3.8 8.6 8.6 0 1 0 20.2 15.1Z"/></svg>
+    <span id="theme-label">Light mode</span>
+  </button>
+</header>
+
+<main class="roadmap-page">
+  <header class="roadmap-intro">
+    <p class="mono tag">A DIRECTION, NOT A SHORTCUT · 01—03</p>
+    <h1>Where I want to take my career</h1>
+    <p>I’m starting with the work I can do now: asking good questions, making sense of data, and explaining what I find. From there, I want to deepen my statistics and machine-learning skills, then learn how to build AI tools people can actually use. The path can change as I learn; the goal is to keep getting better at solving real problems.</p>
+    <div class="roadmap-sequence mono" aria-label="Pathway: Data Analyst to Data Scientist to AI and Machine Learning Engineer">
+      <span>Data Analyst</span><i aria-hidden="true"></i><span>Data Scientist</span><i aria-hidden="true"></i><span>AI / ML Engineer</span>
+    </div>
+  </header>
+
+  <section class="roadmap-track" aria-label="Career and learning pathway">
+    <article class="roadmap-step">
+      <div class="roadmap-step-head"><span class="roadmap-index mono">01</span><span class="roadmap-stage mono">MY NEXT STEP</span></div>
+      <h2>Data Analyst</h2>
+      <p><strong class="roadmap-outcome">The foundation.</strong> Build on my Python, Excel, and client-facing experience to turn practical questions into reliable analysis and clear recommendations.</p>
+      <div class="roadmap-milestones" aria-label="Analytics workflow: ask, analyze, communicate">
+        <span>Ask</span><i aria-hidden="true"></i><span>Analyze</span><i aria-hidden="true"></i><span>Communicate</span>
+      </div>
+      <h3>Skills I’m building</h3>
+      <ul>
+        <li>Write stronger SQL queries, including joins, aggregations, and window functions.</li>
+        <li>Use Excel and Power BI to clean data, shape metrics, and create clear dashboards.</li>
+        <li>Complete end-to-end projects that connect a business question to a recommendation.</li>
+      </ul>
+      <div class="roadmap-cert">
+        <strong>Optional certification goal</strong><br>
+        Microsoft Certified: Power BI Data Analyst Associate (PL-300)
+        <br><a href="https://learn.microsoft.com/en-us/credentials/certifications/power-bi-data-analyst-associate/" target="_blank" rel="noopener">View the official certification page</a>
+      </div>
+      <div class="roadmap-resources">
+        <strong>Training</strong><br>
+        <a href="https://learn.microsoft.com/en-us/training/powerplatform/power-bi" target="_blank" rel="noopener">Microsoft Learn: Power BI</a>
+        <a href="https://sqlbolt.com/" target="_blank" rel="noopener">SQLBolt: interactive SQL lessons</a>
+      </div>
+    </article>
+
+    <article class="roadmap-step">
+      <div class="roadmap-step-head"><span class="roadmap-index mono">02</span><span class="roadmap-stage mono">AFTER THE FOUNDATIONS</span></div>
+      <h2>Data Scientist</h2>
+      <p><strong class="roadmap-outcome">The deeper questions.</strong> Grow from describing what happened to testing why it happened and building models that make careful, measurable predictions.</p>
+      <div class="roadmap-milestones" aria-label="Data science workflow: prepare data, model, evaluate">
+        <span>Prepare</span><i aria-hidden="true"></i><span>Model</span><i aria-hidden="true"></i><span>Evaluate</span>
+      </div>
+      <h3>Skills I want to develop</h3>
+      <ul>
+        <li>Strengthen probability, statistics, feature preparation, and model evaluation.</li>
+        <li>Compare simple baselines with more advanced models and explain their tradeoffs.</li>
+        <li>Build a documented project with reproducible experiments and honest limitations.</li>
+      </ul>
+      <div class="roadmap-cert">
+        <strong>Training option</strong><br>
+        Google Advanced Data Analytics Professional Certificate
+        <br><a href="https://www.coursera.org/professional-certificates/google-advanced-data-analytics" target="_blank" rel="noopener">Explore the program</a>
+      </div>
+      <div class="roadmap-resources">
+        <strong>Training</strong><br>
+        <a href="https://www.kaggle.com/learn" target="_blank" rel="noopener">Kaggle Learn: practical courses</a>
+        <a href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener">Google: Machine Learning Crash Course</a>
+      </div>
+    </article>
+
+    <article class="roadmap-step">
+      <div class="roadmap-step-head"><span class="roadmap-index mono">03</span><span class="roadmap-stage mono">LONG-TERM DIRECTION</span></div>
+      <h2>AI / ML Engineer</h2>
+      <p><strong class="roadmap-outcome">From model to useful tool.</strong> Learn the engineering behind dependable AI: take a model beyond a notebook, put it into an application, and keep it useful over time.</p>
+      <div class="roadmap-milestones" aria-label="Machine learning engineering workflow: build, deploy, monitor">
+        <span>Build</span><i aria-hidden="true"></i><span>Deploy</span><i aria-hidden="true"></i><span>Monitor</span>
+      </div>
+      <h3>Skills for the next level</h3>
+      <ul>
+        <li>Build stronger software foundations with APIs, testing, version control, and Docker.</li>
+        <li>Deploy a model and learn about cloud services, monitoring, and responsible AI.</li>
+        <li>Turn a model project into a small, documented application people can try.</li>
+      </ul>
+      <div class="roadmap-cert">
+        <strong>Later certification goal</strong><br>
+        AWS Certified Machine Learning Engineer – Associate
+        <br><a href="https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/" target="_blank" rel="noopener">View AWS certification details</a>
+      </div>
+      <div class="roadmap-resources">
+        <strong>Training</strong><br>
+        <a href="https://pytorch.org/tutorials/" target="_blank" rel="noopener">PyTorch tutorials</a>
+        <a href="https://aws.amazon.com/training/learn-about/machine-learning/" target="_blank" rel="noopener">AWS: machine learning training</a>
+      </div>
+    </article>
+  </section>
+
+  <p class="roadmap-note"><strong>How I plan to grow:</strong> learn a concept, use it in a project, get feedback, and improve the work. A certificate can support that process, but it isn’t a substitute for practice. The certifications I’ve completed are listed separately in my <a href="index.html#badges">certifications section</a>.</p>
+  <p class="cta roadmap-cta"><a class="btn" href="index.html#projects">Explore my projects</a><a class="btn ghost" href="index.html#skills">Back to my skills</a></p>
+</main>
+
+<footer>© <span id="yr"></span> Ma. Khrisha Shane Ramirez · Pasig City, Philippines</footer>
+<script src="js/roadmap.js"></script>
+</body>
+</html>
