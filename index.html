@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shane Ramirez | Data Analyst Intern</title>
+<meta name="description" content="Meet Shane Ramirez, a Computer Engineering student building practical skills in data analytics, data science, and AI/ML.">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<script>
+  try {
+    var savedTheme = localStorage.getItem('portfolio-theme');
+    if (savedTheme === 'light' || savedTheme === 'dark') {
+      document.documentElement.dataset.theme = savedTheme;
+    }
+  } catch (error) {
+    console.warn('Could not restore the saved color theme.', error);
+  }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="certs.css">
+</head>
+<body>
+<div class="glow" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="logo" href="#top" aria-label="Home">&lt;SR/&gt;</a>
+  <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  <nav id="menu">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Work</a>
+    <a href="#path">Journey</a><a href="#contact">Contact</a>
+    <a class="btn small" href="resume/Resume_ShaneRamirez.pdf" download>Resume</a>
+  </nav>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode" title="Switch to light mode">
+    <svg class="theme-icon sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+    <svg class="theme-icon moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.1A8.5 8.5 0 0 1 8.9 3.8 8.6 8.6 0 1 0 20.2 15.1Z"/></svg>
+    <span id="theme-label">Light mode</span>
+  </button>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-text">
+    <p class="mono tag">Ma. Khrisha Shane Ramirez · Computer Engineering / 2027</p>
+    <h1>Shane<br><span>Ramirez.</span></h1>
+    <p class="role mono">Data analytics · Python / SQL / Excel</p>
+    <p class="lead">I turn messy data into clear next steps—building practical analytics and machine-learning projects that help people make better decisions.</p>
+    <div class="cta">
+      <a class="btn" href="resume/Resume_ShaneRamirez.pdf" download>Get my resume</a>
+      <a class="btn ghost" href="#projects">Explore projects</a>
+    </div>
+  </div>
+  <div class="card" id="card">
+    <div class="frame"><img id="photo" src="images/profile.png" alt="Portrait of Shane Ramirez" width="400" height="480"></div>
+    <div class="lvl mono">YEAR 04<small>Computer Engineering</small></div>
+    <div class="hud mono"><span>BASED IN</span> Pasig, PH<br><span>OPEN TO</span> <b class="on">Internships</b></div>
+  </div>
+</section>
+
+<section class="stats">
+  <div><b data-n="5000" data-suf="">0</b><span>leads scraped and cleaned (3,000–5,000)</span></div>
+  <div><b data-n="150" data-suf="+">0</b><span>leads managed per month</span></div>
+  <div><b data-n="91" data-suf="%">0</b><span>accuracy on waste image CNN</span></div>
+  <div><b data-n="3" data-suf="+">0</b><span>years client-facing experience</span></div>
+</section>
+
+<section id="about" class="sec">
+  <h2>About</h2>
+  <div class="two">
+    <p>I’m in my fourth year of Computer Engineering at José Rizal University. I’ve been learning by building: NLP and computer-vision experiments, data projects in Python, and Excel work that makes information easier to use.</p>
+    <p>Before focusing on tech, I spent more than three years working with clients, leads, and real-world business needs. It shaped how I approach data: start with a useful question, do the careful work, then explain what someone can do with the answer.</p>
+  </div>
+</section>
+
+<section id="skills" class="sec">
+  <h2>Skills</h2>
+  <p class="note mono">Self-rated. Bars show how comfortable I am, not a test score.</p>
+  <div class="bars">
+    <div class="bar" data-v="85"><label>Python (pandas, scikit-learn)</label><i></i></div>
+    <div class="bar" data-v="80"><label>Data cleaning and visualization</label><i></i></div>
+    <div class="bar" data-v="80"><label>Microsoft Excel</label><i></i></div>
+    <div class="bar" data-v="70"><label>NLP and text classification</label><i></i></div>
+    <div class="bar" data-v="65"><label>PyTorch</label><i></i></div>
+    <div class="bar" data-v="65"><label>MySQL</label><i></i></div>
+    <div class="bar" data-v="60"><label>Power BI</label><i></i></div>
+    <div class="bar" data-v="75"><label>Model evaluation (F1, confusion matrix)</label><i></i></div>
+  </div>
+  <p class="chips mono"><span>Hugging Face</span><span>Matplotlib</span><span>Google Workspace</span><span>Microsoft 365</span><span>HubSpot</span><span>Canva</span></p>
+  <div class="soft-skills">
+    <div class="soft-skills-heading">
+      <div>
+        <p class="mono kind">TEAM PLAY / BUSINESS &amp; PEOPLE</p>
+        <h3>Soft Skills</h3>
+      </div>
+      <p class="mono soft-skills-note">Self-rated confidence · out of 5</p>
+    </div>
+    <div class="soft-skill-grid">
+      <article class="soft-skill-card">
+        <div class="soft-skill-title"><h4>Customer communication</h4><span class="mono">5.0</span></div>
+        <p>Built through customer service and client-facing work.</p>
+        <div class="soft-skill-meter" role="meter" aria-label="Customer communication confidence" aria-valuemin="0" aria-valuemax="5" aria-valuenow="5"><span style="--confidence:100%"></span></div>
+      </article>
+      <article class="soft-skill-card">
+        <div class="soft-skill-title"><h4>Outbound sales</h4><span class="mono">4.8</span></div>
+        <p>Experience with outbound sales accounts and outreach.</p>
+        <div class="soft-skill-meter" role="meter" aria-label="Outbound sales confidence" aria-valuemin="0" aria-valuemax="5" aria-valuenow="4.8"><span style="--confidence:96%"></span></div>
+      </article>
+      <article class="soft-skill-card">
+        <div class="soft-skill-title"><h4>Lead generation</h4><span class="mono">4.0</span></div>
+        <p>Finding prospects and maintaining organized lead pipelines.</p>
+        <div class="soft-skill-meter" role="meter" aria-label="Lead generation confidence" aria-valuemin="0" aria-valuemax="5" aria-valuenow="4"><span style="--confidence:80%"></span></div>
+      </article>
+      <article class="soft-skill-card">
+        <div class="soft-skill-title"><h4>Coordination</h4><span class="mono">4.8</span></div>
+        <p>Coordinating schedules, records, and follow-up across work.</p>
+        <div class="soft-skill-meter" role="meter" aria-label="Coordination confidence" aria-valuemin="0" aria-valuemax="5" aria-valuenow="4.8"><span style="--confidence:96%"></span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="path" class="sec career-preview">
+  <p class="mono kind">THE DIRECTION I’M WORKING TOWARD</p>
+  <h2>One step at a time</h2>
+  <p class="career-intro">My goal is to grow from a strong data analyst into a data scientist, then build the skills to bring useful AI and machine-learning systems into the real world. I’m treating it as a learning path—not a title I’ve already earned.</p>
+  <div class="career-sequence mono" aria-label="Career direction: Data Analyst, Data Scientist, AI and Machine Learning">
+    <span><b>01</b> Data Analyst</span><i aria-hidden="true"></i>
+    <span><b>02</b> Data Scientist</span><i aria-hidden="true"></i>
+    <span><b>03</b> AI / ML</span>
+  </div>
+  <a class="btn ghost career-link" href="roadmap.html">See my learning roadmap <span aria-hidden="true">→</span></a>
+</section>
+
+<section id="projects" class="sec">
+  <h2>Projects</h2>
+  <div class="grid">
+    <article class="proj tilt">
+      <div class="project-visual visual-nlp" aria-hidden="true">
+        <svg viewBox="0 0 640 260" focusable="false">
+          <rect class="viz-window" x="14" y="14" width="612" height="232" rx="16"/>
+          <circle cx="36" cy="34" r="4" fill="var(--pink)"/><circle cx="50" cy="34" r="4" fill="var(--cyan)"/>
+          <text class="viz-label" x="64" y="38">LANGUAGE MODEL / INFERENCE PREVIEW</text>
+          <text class="viz-tiny viz-muted" x="532" y="38">ONLINE</text><circle class="viz-live" cx="610" cy="34" r="4"/>
+          <path class="viz-gridline" d="M28 51h584"/>
+          <rect class="viz-panel" x="28" y="64" width="278" height="153" rx="10"/>
+          <text class="viz-tiny viz-muted" x="44" y="84">INCOMING PROPERTY INQUIRY</text>
+          <rect class="viz-bubble" x="44" y="96" width="246" height="59" rx="9"/>
+          <text class="viz-copy" x="57" y="117">“May unit ba near the station?</text>
+          <text class="viz-copy" x="57" y="137">Looking for 2 bedrooms.”</text>
+          <rect class="viz-highlight" x="57" y="163" width="67" height="20" rx="5"/>
+          <text class="viz-token" x="65" y="177">2 bedrooms</text>
+          <rect class="viz-highlight alt" x="131" y="163" width="90" height="20" rx="5"/>
+          <text class="viz-token" x="139" y="177">near station</text>
+          <path class="viz-connector" d="M320 140h32m-9-9 9 9-9 9"/>
+          <rect class="viz-panel" x="366" y="64" width="246" height="153" rx="10"/>
+          <text class="viz-tiny viz-muted" x="382" y="84">EXAMPLE MODEL OUTPUT</text>
+          <rect class="viz-result" x="382" y="97" width="214" height="44" rx="8"/>
+          <circle class="viz-live" cx="400" cy="119" r="5"/>
+          <text class="viz-result-title" x="414" y="116">Condominium</text>
+          <text class="viz-tiny viz-muted" x="414" y="131">LISTING CLASS</text>
+          <text class="viz-tiny viz-muted" x="382" y="165">BUYER INQUIRY SENTIMENT</text>
+          <rect class="viz-track" x="382" y="175" width="66" height="22" rx="6"/>
+          <rect class="viz-track active" x="456" y="175" width="66" height="22" rx="6"/>
+          <rect class="viz-track" x="530" y="175" width="66" height="22" rx="6"/>
+          <text class="viz-tiny viz-muted" x="393" y="190">POSITIVE</text>
+          <text class="viz-tiny viz-token" x="465" y="190">NEUTRAL</text>
+          <text class="viz-tiny viz-muted" x="540" y="190">NEGATIVE</text>
+        </svg>
+      </div>
+      <p class="mono kind">NLP</p><h3>Taglish Real Estate Text Classification</h3>
+      <p>Classified Taglish listings into 4 property types and buyer inquiries into 3 sentiment classes. Compared TF-IDF with Logistic Regression and SVM against fine-tuned XLM-RoBERTa, scored by macro F1 and error analysis.</p>
+      <p class="chips mono"><span>Python</span><span>scikit-learn</span><span>PyTorch</span><span>Hugging Face</span></p>
+    </article>
+    <article class="proj tilt">
+      <div class="project-visual visual-waste" aria-hidden="true">
+        <svg viewBox="0 0 640 260" focusable="false">
+          <rect class="viz-window" x="14" y="14" width="612" height="232" rx="16"/>
+          <text class="viz-label" x="32" y="39">VISION / MATERIAL CLASSIFIER</text>
+          <rect class="viz-panel" x="28" y="57" width="263" height="171" rx="10"/>
+          <text class="viz-tiny viz-muted" x="44" y="77">IMAGE INPUT · SAMPLE 0842</text>
+          <rect class="viz-photo" x="44" y="88" width="231" height="124" rx="8"/>
+          <path class="viz-object" d="m126 110 51 0 12 18-8 63-58 0-8-63z"/>
+          <path class="viz-object-detail" d="M131 110v-8h40v8m-40 30h54m-29 0v49"/>
+          <path class="viz-detection" d="M105 99h24m-24 0v22m89-22h-24m24 0v22m-89 81h24m-24 0v-22m89 22h-24m24 0v-22"/>
+          <path class="viz-scan" d="M109 131h85"/>
+          <rect class="viz-panel" x="307" y="57" width="305" height="171" rx="10"/>
+          <text class="viz-tiny viz-muted" x="325" y="78">MATERIAL CLASSES</text>
+          <rect class="viz-class-chip" x="325" y="92" width="84" height="27" rx="7"/><circle class="viz-live" cx="338" cy="105" r="3"/><text class="viz-class-name" x="347" y="109">PAPER</text>
+          <rect class="viz-class-chip secondary" x="417" y="92" width="91" height="27" rx="7"/><circle class="viz-live secondary" cx="430" cy="105" r="3"/><text class="viz-class-name" x="439" y="109">PLASTIC</text>
+          <rect class="viz-class-chip tertiary" x="325" y="127" width="84" height="27" rx="7"/><circle class="viz-live tertiary" cx="338" cy="140" r="3"/><text class="viz-class-name" x="347" y="144">METAL</text>
+          <rect class="viz-class-chip muted" x="417" y="127" width="91" height="27" rx="7"/><circle class="viz-live muted" cx="430" cy="140" r="3"/><text class="viz-class-name" x="439" y="144">OTHER</text>
+          <path class="viz-gridline" d="M516 78v130"/>
+          <circle class="viz-ring-track" cx="565" cy="133" r="31"/>
+          <circle class="viz-ring" cx="565" cy="133" r="31"/>
+          <text class="viz-ring-value" x="545" y="138">91%</text>
+          <text class="viz-tiny viz-muted" x="537" y="180">ACCURACY</text>
+          <path class="viz-gridline" d="M325 174h183"/>
+          <text class="viz-tiny viz-muted" x="325" y="196">4 OUTPUT CLASSES</text><text class="viz-tiny viz-muted" x="325" y="213">1,250 LABELED IMAGES</text>
+        </svg>
+      </div>
+      <p class="mono kind">Computer vision</p><h3>AI Image Classification for Waste</h3>
+      <p>Classified 4 waste categories from images with 91% accuracy using a PyTorch CNN trained on 1,250 labeled images.</p>
+      <p class="chips mono"><span>PyTorch</span><span>CNN</span></p>
+    </article>
+    <article class="proj tilt">
+      <div class="project-visual visual-dsp" aria-hidden="true">
+        <svg viewBox="0 0 640 260" focusable="false">
+          <rect class="viz-window" x="14" y="14" width="612" height="232" rx="16"/>
+          <text class="viz-label" x="32" y="39">SIGNAL LAB / FILTER COMPARISON</text>
+          <rect class="viz-status" x="518" y="25" width="91" height="22" rx="6"/>
+          <circle class="viz-live" cx="531" cy="36" r="3"/><text class="viz-tiny viz-token" x="540" y="40">LIVE FRAME</text>
+          <rect class="viz-panel" x="28" y="57" width="291" height="153" rx="10"/>
+          <text class="viz-tiny viz-muted" x="44" y="77">RAW INPUT · HIGH-FREQUENCY NOISE</text>
+          <path class="viz-gridline" d="M45 104h257M45 138h257M45 172h257"/>
+          <path class="viz-wave noisy" d="M45 138h10l6-22 8 49 8-36 8 22 8-51 8 64 8-36 8 27 8-12 8 0 8-24 8 44 8-34 8 19 8-29 8 38 8-51 8 61 8-38 8 24 8-19 8 0 8-29 8 48 8-24 8 13 8-38 8 45 8-26 8 18 8-12"/>
+          <rect class="viz-panel" x="331" y="57" width="281" height="153" rx="10"/>
+          <text class="viz-tiny viz-muted" x="347" y="77">FILTERED SIGNAL · FACE DETECTION</text>
+          <path class="viz-gridline" d="M348 104h247M348 138h247M348 172h247"/>
+          <path class="viz-wave clean" d="M348 157h25c8 0 8-16 16-16s8 16 16 16h34c8 0 8-26 16-26s8 26 16 26h34c8 0 8-18 16-18s8 18 16 18h58"/>
+          <rect class="viz-face-box" x="526" y="91" width="52" height="76" rx="4"/>
+          <circle class="viz-face" cx="552" cy="117" r="12"/>
+          <path class="viz-face" d="M533 153c4-17 34-17 38 0"/>
+          <rect class="viz-status" x="347" y="181" width="116" height="18" rx="5"/>
+          <text class="viz-tiny viz-token" x="356" y="194">FACE DETECTED</text>
+          <path class="viz-gridline" d="M28 220h584"/>
+          <text class="viz-tiny viz-muted" x="38" y="237">GAUSSIAN</text><path class="viz-connector" d="M104 233h24"/>
+          <text class="viz-tiny viz-muted" x="139" y="237">MEDIAN</text><path class="viz-connector" d="M199 233h24"/>
+          <text class="viz-tiny viz-muted" x="234" y="237">FFT FILTER</text><path class="viz-connector" d="M308 233h24"/>
+          <text class="viz-tiny viz-token" x="346" y="237">STABILIZED DETECTION</text>
+        </svg>
+      </div>
+      <p class="mono kind">Signal processing</p><h3>Face Detection with DSP Enhancement</h3>
+      <p>Improved detection stability and reduced false positives in a real-time detector using Gaussian, median, and FFT filters on noisy frames across Haar Cascade and DNN models.</p>
+      <p class="chips mono"><span>OpenCV</span><span>FFT</span><span>DNN</span></p>
+    </article>
+    <article class="proj tilt">
+      <div class="project-visual visual-student" aria-hidden="true">
+        <svg viewBox="0 0 640 260" focusable="false">
+          <rect class="viz-window" x="14" y="14" width="612" height="232" rx="16"/>
+          <text class="viz-label" x="32" y="39">STUDENT SUCCESS / EARLY-SUPPORT SIGNALS</text>
+          <rect class="viz-panel" x="28" y="57" width="395" height="171" rx="10"/>
+          <text class="viz-tiny viz-muted" x="45" y="78">ILLUSTRATIVE · SURVEY COHORT ~200</text>
+          <path class="viz-gridline" d="M58 107h345M58 142h345M58 177h345M58 199h345M58 95v116"/>
+          <path class="viz-threshold" d="M58 164h345"/>
+          <path class="viz-chart-area" d="M61 110 99 116 137 109 175 135 213 127 251 150 289 145 327 178 365 169 399 190 399 211H61z"/>
+          <path class="viz-chart" d="m61 110 38 6 38-7 38 26 38-8 38 23 38-5 38 33 38-9 34 21"/>
+          <circle class="viz-dot" cx="61" cy="110" r="4"/><circle class="viz-dot" cx="99" cy="116" r="4"/><circle class="viz-dot" cx="137" cy="109" r="4"/><circle class="viz-dot" cx="175" cy="135" r="4"/><circle class="viz-dot" cx="213" cy="127" r="4"/><circle class="viz-dot" cx="251" cy="150" r="4"/><circle class="viz-dot" cx="289" cy="145" r="4"/><circle class="viz-risk" cx="327" cy="178" r="6"/><circle class="viz-risk" cx="365" cy="169" r="6"/><circle class="viz-risk" cx="399" cy="190" r="6"/>
+          <text class="viz-tiny viz-muted" x="59" y="220">LOWER SIGNAL</text><text class="viz-tiny viz-muted" x="336" y="220">FOLLOW-UP ZONE</text>
+          <rect class="viz-panel" x="437" y="57" width="175" height="171" rx="10"/>
+          <text class="viz-tiny viz-muted" x="453" y="78">MODEL COMPARISON</text>
+          <rect class="viz-model" x="453" y="91" width="143" height="31" rx="6"/><circle class="viz-model-dot" cx="466" cy="106" r="4"/><text class="viz-class-name" x="478" y="110">Linear Reg.</text>
+          <rect class="viz-model" x="453" y="129" width="143" height="31" rx="6"/><circle class="viz-model-dot secondary" cx="466" cy="144" r="4"/><text class="viz-class-name" x="478" y="148">Logistic Reg.</text>
+          <rect class="viz-model" x="453" y="167" width="143" height="31" rx="6"/><circle class="viz-model-dot tertiary" cx="466" cy="182" r="4"/><text class="viz-class-name" x="478" y="186">KNN</text>
+          <text class="viz-tiny viz-token" x="453" y="216">COMPARE · 3 APPROACHES</text>
+        </svg>
+      </div>
+      <p class="mono kind">Predictive modeling</p><h3>Student Performance Prediction</h3>
+      <p>Proposed an early-warning model to flag first-year students who need a tutor, using a survey of about 200 students and a comparison of Linear Regression, Logistic Regression, and KNN.</p>
+      <p class="chips mono"><span>Regression</span><span>KNN</span><span>Survey data</span></p>
+    </article>
+    <article class="proj tilt">
+      <div class="project-visual visual-leads" aria-hidden="true">
+        <svg viewBox="0 0 640 260" focusable="false">
+          <rect class="viz-window" x="14" y="14" width="612" height="232" rx="16"/>
+          <text class="viz-label" x="32" y="39">LEAD OPERATIONS / PIPELINE OVERVIEW</text>
+          <rect class="viz-panel" x="28" y="57" width="305" height="170" rx="10"/>
+          <text class="viz-tiny viz-muted" x="44" y="78">SAMPLE CLEAN CONTACTS</text>
+          <path class="viz-sheet-head" d="M44 91h273v24H44z"/>
+          <path class="viz-sheet-grid" d="M44 115h273M44 143h273M44 171h273M44 199h273M99 91v136M177 91v136M251 91v136"/>
+          <text class="viz-tiny viz-muted" x="54" y="107">LEAD</text><text class="viz-tiny viz-muted" x="111" y="107">MARKET</text><text class="viz-tiny viz-muted" x="188" y="107">SOURCE</text><text class="viz-tiny viz-muted" x="260" y="107">STATUS</text>
+          <circle class="viz-live" cx="57" cy="129" r="3"/><text class="viz-table-copy" x="65" y="132">Contact 01</text><text class="viz-table-copy" x="110" y="132">US</text><text class="viz-table-copy" x="188" y="132">Web</text><text class="viz-status-copy" x="259" y="132">READY</text>
+          <circle class="viz-live secondary" cx="57" cy="157" r="3"/><text class="viz-table-copy" x="65" y="160">Contact 02</text><text class="viz-table-copy" x="110" y="160">AU</text><text class="viz-table-copy" x="188" y="160">Referral</text><text class="viz-status-copy" x="259" y="160">READY</text>
+          <circle class="viz-live tertiary" cx="57" cy="185" r="3"/><text class="viz-table-copy" x="65" y="188">Contact 03</text><text class="viz-table-copy" x="110" y="188">US</text><text class="viz-table-copy" x="188" y="188">Listing</text><text class="viz-status-copy" x="259" y="188">REVIEW</text>
+          <rect class="viz-status" x="44" y="204" width="131" height="15" rx="5"/><text class="viz-tiny viz-token" x="53" y="215">CLEANED · ORGANIZED</text>
+          <rect class="viz-panel" x="347" y="57" width="265" height="170" rx="10"/>
+          <text class="viz-tiny viz-muted" x="363" y="78">OUTREACH PIPELINE</text>
+          <text class="viz-kpi" x="363" y="113">150+</text><text class="viz-tiny viz-muted" x="416" y="111">LEADS / MONTH</text>
+          <path class="viz-gridline" d="M364 127h231"/>
+          <path class="viz-gridline" d="M371 153h211M371 177h211M371 201h211"/>
+          <path class="viz-pipeline" d="M372 190h40v-22h42v12h42v-37h42v20h42"/>
+          <circle class="viz-pipeline-dot" cx="372" cy="190" r="4"/><circle class="viz-pipeline-dot secondary" cx="454" cy="180" r="4"/><circle class="viz-pipeline-dot tertiary" cx="538" cy="163" r="4"/><circle class="viz-pipeline-dot" cx="580" cy="163" r="4"/>
+          <text class="viz-tiny viz-muted" x="364" y="219">SOURCE</text><text class="viz-tiny viz-muted" x="435" y="219">CLEAN</text><text class="viz-tiny viz-muted" x="509" y="219">CONTACT</text><text class="viz-tiny viz-muted" x="566" y="219">TRACK</text>
+        </svg>
+      </div>
+      <p class="mono kind">Excel analytics</p><h3>Real Estate Leads Database</h3>
+      <p>Multi-sheet leads database with analysis sheets and charts, built on synthetic US and Australian market data.</p>
+      <p class="chips mono"><span>Excel</span><span>Charts</span></p>
+    </article>
+    <article class="proj tilt">
+      <div class="project-visual visual-textile" aria-hidden="true">
+        <svg viewBox="0 0 640 260" focusable="false">
+          <rect class="viz-window" x="14" y="14" width="612" height="232" rx="16"/>
+          <text class="viz-label" x="32" y="39">THESIS / TEXTILE CIRCULARITY CLASSIFIER</text>
+          <rect class="viz-panel" x="28" y="57" width="196" height="171" rx="10"/>
+          <text class="viz-tiny viz-muted" x="44" y="78">GARMENT IMAGE</text>
+          <rect class="viz-photo textile-photo" x="44" y="88" width="164" height="119" rx="8"/>
+          <path class="viz-garment" d="m103 112 19-12 14 8 14 0 15 20-14 10-8-11v45h-35v-45l-8 11-14-10 15-20z"/>
+          <path class="viz-stitch" d="M113 116v48m32-48v48m-26-55 13 9 12-9"/>
+          <path class="viz-detection" d="M84 99h18m-18 0v17m77-17h18m-18 0v17m-77 61h18m-18 0v-17m77 17h18m-18 0v-17"/>
+          <path class="viz-connector" d="M238 143h32m-9-9 9 9-9 9"/>
+          <rect class="viz-panel" x="282" y="57" width="118" height="171" rx="10"/>
+          <text class="viz-tiny viz-muted" x="298" y="78">BENCHMARK MODEL</text>
+          <circle class="viz-model-ring" cx="341" cy="131" r="33"/>
+          <path class="viz-model-mark" d="m325 131 11 11 22-24"/>
+          <text class="viz-tiny viz-token" x="302" y="187">CLASSIFY</text>
+          <text class="viz-tiny viz-muted" x="301" y="205">FASHION-MNIST</text>
+          <path class="viz-connector" d="M414 143h32m-9-9 9 9-9 9"/>
+          <rect class="viz-destination" x="458" y="70" width="154" height="66" rx="10"/>
+          <circle class="viz-outcome-dot" cx="476" cy="91" r="4"/>
+          <text class="viz-dest-title" x="489" y="96">REUSE</text><text class="viz-tiny viz-muted" x="474" y="119">KEEP IN CIRCULATION</text>
+          <rect class="viz-destination second" x="458" y="150" width="154" height="66" rx="10"/>
+          <circle class="viz-outcome-dot secondary" cx="476" cy="171" r="4"/>
+          <text class="viz-dest-title" x="489" y="176">RECYCLE</text><text class="viz-tiny viz-muted" x="474" y="199">SORT BY MATERIAL</text>
+        </svg>
+      </div>
+      <p class="mono kind">Thesis</p><h3>AI Textile Sorting</h3>
+      <p>Thesis Team Leader on a computer vision system that classifies post-consumer garments for reuse or recycling. Contributed to planning and a Fashion-MNIST benchmark.</p>
+      <p class="chips mono"><span>Computer vision</span><span>Classification</span></p>
+    </article>
+  </div>
+</section>
+
+<section id="quests" class="sec">
+  <h2>Experience</h2>
+  <ol class="log">
+    <li><span class="mono when">Dec 2024 – Jan 2026</span><h3>Lead Generation Specialist <em>Landco Pacific Corporation · Remote</em></h3>
+      <p>Scraped and compiled 3,000–5,000 leads with Python and Excel, then cleaned and organized the data for sales outreach. Managed a pipeline of 150+ leads per month through cold calling and multi-channel outreach.</p></li>
+    <li><span class="mono when">Oct 2025 – Jul 2026</span><h3>Liaison Officer (Freelance) <em>YLT Construction Services · Hybrid</em></h3>
+      <p>Maintained legal documents and daily construction reports, keeping records accurate. Coordinated site manpower schedules to meet daily timelines.</p></li>
+    <li><span class="mono when">Mar 2023 – Present</span><h3>Real Estate Property Specialist <em>Prince Jun Development Corp. · Part-time</em></h3>
+      <p>Processed property title and ownership documents for condo and rental clients. Coordinated with the company to meet financing and legal requirements.</p></li>
+    <li><span class="mono when">Nov 02, 2021 – Nov 29, 2023</span><h3>Customer Service Representative <em>Inspiro Relia Inc. · Outbound Sales Account</em></h3></li>
+  </ol>
+</section>
+
+<section id="badges" class="sec">
+  <h2>Certifications</h2>
+  <p class="note mono">Follow the branches to explore how my technical and professional learning connect.</p>
+  <div class="cert-map">
+    <div class="cert-map-overview" aria-label="Certification mind map with Data and AI and Professional Growth learning branches">
+      <svg class="cert-map-wires" viewBox="0 0 1000 220" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M500 126v13M500 139H250v44M500 139h250v44"/>
+      </svg>
+      <div class="cert-map-core">
+        <span class="cert-core-orbit" aria-hidden="true"></span>
+        <span class="mono cert-core-kicker">LEARNING MAP</span>
+        <strong>11 milestones</strong>
+        <span class="mono cert-core-caption">curiosity → capability</span>
+      </div>
+      <a class="cert-map-track cert-map-track-data" href="#cert-data">
+        <span class="cert-track-orbit" aria-hidden="true"></span>
+        <span><small class="mono">01 / TECHNICAL</small><strong>Data &amp; AI</strong></span>
+      </a>
+      <a class="cert-map-track cert-map-track-growth" href="#cert-growth">
+        <span class="cert-track-orbit" aria-hidden="true"></span>
+        <span><small class="mono">02 / PEOPLE &amp; PRACTICE</small><strong>Professional growth</strong></span>
+      </a>
+    </div>
+    <div class="cert-branches">
+      <section class="cert-branch cert-branch-data" id="cert-data" aria-labelledby="cert-data-title">
+        <h3 class="cert-branch-heading" id="cert-data-title">
+          <span class="cert-branch-node mono">01</span>
+          <span><small class="mono">TECHNICAL TRACK</small><strong>Data &amp; AI</strong><em>6 learning milestones</em></span>
+        </h3>
+        <ul class="cert-grid">
+    <li class="cert">
+      <button class="cert-thumb is-loading" type="button" data-pdf="certs/Data_Science_Essentials_with_Python.pdf" data-title="Data Science Essentials with Python" data-meta="Cisco Networking Academy · May 2026" aria-label="View certificate: Data Science Essentials with Python" disabled>
+        <img alt="Certificate: Data Science Essentials with Python">
+        <span class="cert-zoom mono">View</span>
+      </button>
+      <div class="cert-info">
+        <b>Data Science Essentials with Python</b><span class="mono">Cisco Networking Academy · May 2026</span>
+        <a class="cert-dl mono" href="certs/Data_Science_Essentials_with_Python.pdf" download>Download PDF</a>
+      </div>
+    </li>
+    <li class="cert">
+      <button class="cert-thumb is-loading" type="button" data-pdf="certs/AWS_AI_Practitioner_Exam_Prep.pdf" data-title="AWS Exam Prep: AI Practitioner (AIF-C01)" data-meta="AWS Skills Centers · Jul 2026" aria-label="View certificate: AWS Exam Prep: AI Practitioner (AIF-C01)" disabled>
+        <img alt="Certificate: AWS Exam Prep: AI Practitioner (AIF-C01)">
+        <span class="cert-zoom mono">View</span>
+      </button>
+      <div class="cert-info">
+        <b>AWS Exam Prep: AI Practitioner (AIF-C01)</b><span class="mono">AWS Skills Centers · Jul 2026</span>
+        <a class="cert-dl mono" href="certs/AWS_AI_Practitioner_Exam_Prep.pdf" download>Download PDF</a>
+      </div>
+    </li>
+    <li class="cert">
+      <button class="cert-thumb is-loading" type="button" data-pdf="certs/Google_Data_Analytics_Foundations.pdf" data-title="Foundations: Data, Data, Everywhere" data-meta="Google and Coursera · Jun 2026" aria-label="View certificate: Foundations: Data, Data, Everywhere" disabled>
+        <img alt="Certificate: Foundations: Data, Data, Everywhere">
+        <span class="cert-zoom mono">View</span>
+      </button>
+      <div class="cert-info">
+        <b>Foundations: Data, Data, Everywhere</b><span class="mono">Google and Coursera · Jun 2026</span>
+        <a class="cert-dl mono" href="certs/Google_Data_Analytics_Foundations.pdf" download>Download PDF</a>
+      </div>
+    </li>
+    <li class="cert">
+      <button class="cert-thumb is-loading" type="button" data-pdf="certs/AWS_Academy_Machine_Learning_for_NLP.pdf" data-title="Machine Learning for NLP" data-meta="AWS Academy Graduate · Amazon Web Services · Oct 2026" aria-label="View certificate: Machine Learning for NLP" disabled>
+        <img alt="Certificate: Machine Learning for NLP">
+        <span class="cert-zoom mono">View</span>
+      </button>
+      <div class="cert-info">
+        <b>Machine Learning for NLP</b><span class="mono">AWS Academy Graduate · Amazon Web Services · Oct 2026</span>
+        <a class="cert-dl mono" href="certs/AWS_Academy_Machine_Learning_for_NLP.pdf" download>Download PDF</a>
+      </div>
+    </li>
+    <li class="cert">
+      <button class="cert-thumb is-loading" type="button" data-pdf="certs/AWS_Academy_Machine_Learning_Foundations.pdf" data-title="Machine Learning Foundations" data-meta="AWS Academy Graduate · Amazon Web Services · Oct 2026" aria-label="View certificate: Machine Learning Foundations" disabled>
+        <img alt="Certificate: Machine Learning Foundations">
+        <span class="cert-zoom mono">View</span>
+      </button>
+      <div class="cert-info">
+        <b>Machine Learning Foundations</b><span class="mono">AWS Academy Graduate · Amazon Web Services · Oct 2026</span>
+        <a class="cert-dl mono" href="certs/AWS_Academy_Machine_Learning_Foundations.pdf" download>Download PDF</a>
+      </div>
+    </li>
+    <li class="cert">
+      <button class="cert-thumb is-loading" type="button" data-pdf="certs/AWS_Academy_Cloud_Foundations.pdf" data-title="Cloud Foundations" data-meta="AWS Academy Graduate · Amazon Web Services · Oct 2026" aria-label="View certificate: Cloud Foundations" disabled>
+        <img alt="Certificate: Cloud Foundations">
+        <span class="cert-zoom mono">View</span>
+      </button>
+      <div class="cert-info">
+        <b>Cloud Foundations</b><span class="mono">AWS Academy Graduate · Amazon Web Services · Oct 2026</span>
+        <a class="cert-dl mono" href="certs/AWS_Academy_Cloud_Foundations.pdf" download>Download PDF</a>
+      </div>
+    </li>
+        </ul>
+      </section>
+      <section class="cert-branch cert-branch-growth" id="cert-growth" aria-labelledby="cert-growth-title">
+        <h3 class="cert-branch-heading" id="cert-growth-title">
+          <span class="cert-branch-node mono">02</span>
+          <span><small class="mono">PEOPLE &amp; PRACTICE</small><strong>Professional growth</strong><em>5 learning milestones</em></span>
+        </h3>
+        <ul class="cert-grid">
+    <li class="cert">
+      <button class="cert-thumb is-loading" type="button" data-pdf="certs/Enactus_Philippines_National_Competition.pdf" data-title="Enactus Philippines National Competition" data-meta="Team Leader · Top 60 · Oct 2026" aria-label="View certificate: Enactus Philippines National Competition" disabled>
+        <img alt="Certificate: Enactus Philippines National Competition">
+        <span class="cert-zoom mono">View</span>
+      </button>
+      <div class="cert-info">
+        <b>Enactus Philippines National Competition</b><span class="mono">Team Leader · Top 60 · Oct 2026</span>
+        <a class="cert-dl mono" href="certs/Enactus_Philippines_National_Competition.pdf" download>Download PDF</a>
+      </div>
+    </li>
+    <li class="cert">
+      <button class="cert-thumb is-loading" type="button" data-pdf="certs/LinkedIn_Advanced_Lead_Generation.pdf" data-title="Advanced Lead Generation" data-meta="LinkedIn Learning" aria-label="View certificate: Advanced Lead Generation" disabled>
+        <img alt="Certificate: Advanced Lead Generation">
+        <span class="cert-zoom mono">View</span>
+      </button>
+      <div class="cert-info">
+        <b>Advanced Lead Generation</b><span class="mono">LinkedIn Learning</span>
+        <a class="cert-dl mono" href="certs/LinkedIn_Advanced_Lead_Generation.pdf" download>Download PDF</a>
+      </div>
+    </li>
+    <li class="cert">
+      <button class="cert-thumb is-loading" type="button" data-pdf="certs/LinkedIn_Note_Taking_for_Business_Professionals.pdf" data-title="Note Taking for Business Professionals" data-meta="LinkedIn Learning" aria-label="View certificate: Note Taking for Business Professionals" disabled>
+        <img alt="Certificate: Note Taking for Business Professionals">
+        <span class="cert-zoom mono">View</span>
+      </button>
+      <div class="cert-info">
+        <b>Note Taking for Business Professionals</b><span class="mono">LinkedIn Learning</span>
+        <a class="cert-dl mono" href="certs/LinkedIn_Note_Taking_for_Business_Professionals.pdf" download>Download PDF</a>
+      </div>
+    </li>
+    <li class="cert">
+      <button class="cert-thumb is-loading" type="button" data-pdf="certs/LinkedIn_Sales_Strategies_and_Approaches.pdf" data-title="Sales Strategies and Approaches in a New World of Selling" data-meta="LinkedIn Learning" aria-label="View certificate: Sales Strategies and Approaches in a New World of Selling" disabled>
+        <img alt="Certificate: Sales Strategies and Approaches in a New World of Selling">
+        <span class="cert-zoom mono">View</span>
+      </button>
+      <div class="cert-info">
+        <b>Sales Strategies and Approaches in a New World of Selling</b><span class="mono">LinkedIn Learning</span>
+        <a class="cert-dl mono" href="certs/LinkedIn_Sales_Strategies_and_Approaches.pdf" download>Download PDF</a>
+      </div>
+    </li>
+    <li class="cert">
+      <button class="cert-thumb is-loading" type="button" data-pdf="certs/LinkedIn_Administrative_Professional_Foundations.pdf" data-title="Administrative Professional Foundations 2018" data-meta="LinkedIn Learning" aria-label="View certificate: Administrative Professional Foundations 2018" disabled>
+        <img alt="Certificate: Administrative Professional Foundations 2018">
+        <span class="cert-zoom mono">View</span>
+      </button>
+      <div class="cert-info">
+        <b>Administrative Professional Foundations 2018</b><span class="mono">LinkedIn Learning</span>
+        <a class="cert-dl mono" href="certs/LinkedIn_Administrative_Professional_Foundations.pdf" download>Download PDF</a>
+      </div>
+    </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+
+  <p class="cert-more"><a class="btn cert-verify" href="https://www.credly.com/earner/earned/badge/0e5e9b1e-81c9-4c50-9db9-77632269f346" target="_blank" rel="noopener">Verify my badge on Credly <span class="cert-verify-arrow" aria-hidden="true">↗</span></a></p>
+</section>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Certificate viewer">
+  <div class="lb-panel">
+    <div class="lb-bar">
+      <div class="lb-cap"><b id="lb-title"></b><span class="mono" id="lb-meta"></span></div>
+      <button class="btn ghost small" id="lb-close" type="button" aria-label="Close viewer">Close ✕</button>
+    </div>
+    <img id="lb-img" alt="">
+    <button class="lb-nav prev" id="lb-prev" type="button" aria-label="Previous certificate">‹</button>
+    <button class="lb-nav next" id="lb-next" type="button" aria-label="Next certificate">›</button>
+  </div>
+</div>
+
+<section id="contact" class="sec contact">
+  <h2>Let's work together</h2>
+  <p>I’m looking for an internship where I can contribute, keep learning, and work with people who care about using data well. If that sounds like your team, I’d love to talk.</p>
+  <div class="cta">
+    <a class="btn" href="mailto:mariashane.ramirez@gmail.com">Email me</a>
+    <a class="btn ghost" href="resume/Resume_ShaneRamirez.pdf" download>Download resume</a>
+  </div>
+  <ul class="links mono">
+    <li><a href="https://www.linkedin.com/in/shaneramirezva" target="_blank" rel="noopener" aria-label="LinkedIn: shaneramirezva" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3.5a2.2 2.2 0 1 0 0 4.4 2.2 2.2 0 0 0 0-4.4ZM3.3 9.5h3.8v11.2H3.3zm6.1 0H13v1.5h.1a4.1 4.1 0 0 1 3.7-2c4 0 4.7 2.5 4.7 5.7v6h-3.8v-5.3c0-1.3 0-3-1.9-3s-2.2 1.4-2.2 2.9v5.4H9.4z"/></svg></a></li>
+    <li><a href="https://www.credly.com/earner/earned/badge/0e5e9b1e-81c9-4c50-9db9-77632269f346" target="_blank" rel="noopener" aria-label="Credly verified badges" title="Credly"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5 14.8 4l3.2-.1 1.1 3 2.2 2.3-1.1 3 0 3.2-2.8 1.6-1.7 2.7-3.2-.5-3.1.5-1.7-2.7-2.8-1.6 0-3.2-1.1-3 2.2-2.3 1.1-3 3.2.1z"/><path d="m12 7.1 1.4 2.8 3.1.5-2.2 2.2.5 3.1-2.8-1.5-2.8 1.5.5-3.1-2.2-2.2 3.1-.5z"/></svg></a></li>
+    <li><a href="https://www.behance.net/shaneramirez3/projects" target="_blank" rel="noopener" aria-label="Behance: shaneramirez3" title="Behance"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h9a4 4 0 0 1 2.8 6.9A4.4 4.4 0 0 1 12 20H3zm4 3v2.7h4a1.4 1.4 0 1 0 0-2.7zm0 5.7V17h4.4a1.6 1.6 0 1 0 0-3.3zM16 6h5v2h-5zm5.5 9.1h-6.2c.1 1.3.8 2 1.9 2 .7 0 1.3-.3 1.5-.9h2.6c-.5 2.1-2.1 3.2-4.2 3.2-2.9 0-4.6-1.9-4.6-4.7 0-2.7 1.8-4.7 4.5-4.7 2.8 0 4.5 2.2 4.5 5.1zm-6.2-1.7h3.5c-.1-1-.7-1.6-1.7-1.6s-1.6.6-1.8 1.6z"/></svg></a></li>
+    <li><a href="https://medium.com/@memonttorie" target="_blank" rel="noopener" aria-label="Medium: memonttorie" title="Medium"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.3c0-.3-.1-.5-.4-.7L1.4 4.2V4h7.2l5.6 12.2L19.1 4h6.8v.2l-1 .9c-.2.2-.3.3-.3.6v12.6c0 .3.1.5.3.6l1 .9v.2h-7.7v-.2l1-.9c.2-.2.2-.3.2-.6V7.1l-5.6 12.8h-.7L7 7.1v8.6c-.1.4.1.8.4 1.1l1.4 1.7v.2H3v-.2l1.4-1.7c.3-.3.4-.7.3-1.1V6.3z"/></svg></a></li>
+    <li><a href="https://github.com/memonttorrie" target="_blank" rel="noopener" aria-label="GitHub: memonttorrie" title="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.08c-3.1.67-3.76-1.32-3.76-1.32-.51-1.3-1.24-1.65-1.24-1.65-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.98 1.97 3.02 1.5.1-.7.4-1.17.72-1.44-2.47-.28-5.07-1.24-5.07-5.5 0-1.22.43-2.22 1.15-3-.12-.29-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.1-1.43 3.04-1.14 3.04-1.14.61 1.54.23 2.67.12 2.96.71.78 1.14 1.78 1.14 3.01 0 4.27-2.6 5.21-5.08 5.49.4.35.76 1.02.76 2.06v3.06c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg></a></li>
+    <li><a href="https://memonttorrie.github.io/portfoliowebsite/" target="_blank" rel="noopener" aria-label="Personal portfolio website" title="Portfolio"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.2"/><path d="M2.9 12h18.2M12 2.8a14.6 14.6 0 0 1 0 18.4M12 2.8a14.6 14.6 0 0 0 0 18.4"/></svg></a></li>
+  </ul>
+</section>
+</main>
+<footer>© <span id="yr"></span> Ma. Khrisha Shane Ramirez · Pasig City, Philippines</footer>
+<script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="certs.js"></script>
+</body>
+</html>

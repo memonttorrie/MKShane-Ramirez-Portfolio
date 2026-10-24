@@ -4,9 +4,45 @@
 
   var thumbs = [].slice.call(document.querySelectorAll('.cert-thumb'));
   if (!thumbs.length) return;
+  var cards = [].slice.call(document.querySelectorAll('.cert'));
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
   var pdfjs = window.pdfjsLib;
   if (!pdfjs) throw new Error('PDF.js did not load; certificate image previews are unavailable.');
   pdfjs.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+  if (!reduceMotion && 'IntersectionObserver' in window) {
+    cards.forEach(function (card, i) {
+      card.style.setProperty('--cert-index', i % 6);
+    });
+    document.querySelector('.cert-map').classList.add('cert-motion-ready');
+
+    var reveal = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        reveal.unobserve(entry.target);
+      });
+    }, { threshold: .12, rootMargin: '0px 0px -5% 0px' });
+
+    cards.forEach(function (card) { reveal.observe(card); });
+  }
+
+  if (!reduceMotion && finePointer) {
+    cards.forEach(function (card) {
+      card.addEventListener('pointermove', function (event) {
+        var bounds = card.getBoundingClientRect();
+        var x = (event.clientX - bounds.left) / bounds.width - .5;
+        var y = (event.clientY - bounds.top) / bounds.height - .5;
+        card.style.setProperty('--cert-tilt-x', (x * 7).toFixed(2) + 'deg');
+        card.style.setProperty('--cert-tilt-y', (-y * 7).toFixed(2) + 'deg');
+      });
+      card.addEventListener('pointerleave', function () {
+        card.style.setProperty('--cert-tilt-x', '0deg');
+        card.style.setProperty('--cert-tilt-y', '0deg');
+      });
+    });
+  }
 
   var img = document.getElementById('lb-img'),
       title = document.getElementById('lb-title'),
